@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64d9acfca2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/THEO LOGOprojet.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hello, I'm <span>Theo Fache</span> </h1>
+            <div class="bar"></div>
+            <p>Sound Engineer</p>
+        </div>
+    </div>
+</div>
+
+<!-------about--------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">  
+            <div class="about-col1">
+                <img src="images/ME.png">
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I'm a Junior Sound Engineer involved in multiple projects from on-set short film recording, DSP coding, to full Extented Play mixing and mastering.
+                    My will to provide the best out to any people with whom i work constantly led me to dive deeper into the technical sides and improve my knowledge concerning
+                    the intricaces of audio engineering.
+                </p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Recording</span><br>Take the best out of artists performances</li>
+                        <li><span>Mixing</span><br>Create cohesive and astonishing track</li>
+                        <li><span>Sound Networking</span><br>Reliable network implementation</li>
+                        <li><span>Sound Design</span><br>Innovative sound creation</li>
+                        <li><span>ProTools</span><br>Industry-standard Digital Audio Workstation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>September 2022 - October 2022</span><br>Road Studio</li>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Now</span><br>Sound Bachelor - ESIS</li>
+                        <li><span>2024</span><br>Dante LVL.3 Certification</li>
+                        <li><span>2022</span><br>Culture and arts Bachelor - FLSH</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!----------services
+<div id="services">
+    <div class="containe">
+        <h1 class="subtitle">My Services</h1>
+        <div class="servies-list">
+
+        </div>       
+    </div>
+</div>
+
+---------------------->
+<!-----portfolio-------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/ACHROMATIQUE.png">
+                    <div class="layer">
+                        <h3>C0DY <br>- Achromatique -</h3>
+                        <p>Recording Engineer <br>(Full EP)</p>
+
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_kJq27XItLIx-Wy3SFZXGKpLjfltGPGVGg"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/SKID.png">
+                    <div class="layer">
+                        <h3>C0DY <br>- SKID -</h3>
+                        <p>Recording and Mixing Engineer</p>
+
+                        <a href="https://www.youtube.com/watch?v=Hb5EKMAxbKo"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/YAXS.png">
+                    <div class="layer">
+                        <h3>Yaxs <br>- Attente -</h3>
+                        <p>Recording and Mixing Engineer</p>
+
+                        <a href="https://www.youtube.com/watch?v=YYQi0u9X-QQ"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/MIX.png">
+                    <div class="layer">
+                        <h3>Criminal Academy <br>- Short Film -</h3>
+                       
+                        <p> Mixing and Mastering Engineer</p>
+                        
+                    </div>
+                    <audio controls>
+                        <source src="How To Fix No Sound In Google Chrome.mp3" type="audio/mp3">
+                        </audio>
+                </div>
+                
+                <div class="work">
+                    <img src="images/MIX.png">
+                    <div class="layer">
+                        <h3>Blues <br>- Short Film -</h3>
+                        
+                        <p> Mixing and mastering Engineer</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/MIX.png">
+                    <div class="layer">
+                        <h3>A l'abris des conneries <br>- Short Film -</h3>
+                        
+                        <p> Mixing and mastering Engineer</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/RECORDING.png">
+                    <div class="layer">
+                        <h3>Paranormal Activity <br>- Fan Fiction -</h3>
+                       
+                        <p> Recording Engineer</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/RECORDANDMIX.png">
+                    <div class="layer">
+                        <h3>Fluides <br>- Short Film -</h3>
+                        <p> Recording, Mixing and Mastering Engineer</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+<!----CONTACT----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>theofache.contact@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0686463291</p>
+                <a href="images/THEOFACHE_CV_SEPT2024.pdf" download class="btn">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Theo Fache.</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby7VhVBu_Ls1P38pxl0sYECy0c5G8FdPkvLYuy-IA1v2p8mUPX8NfO8KmK_5hMu3FSs/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
